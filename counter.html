@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/counter.css">
+</head>
+<body>
+<div class="store">
+
+    <div class="count"> 
+
+
+        <div class="image"><img src="/51wE-UYd28L._AC_SL1000_.jpg" alt=""></div>
+        <button class="add"> + </button>
+        <button class="remove"> - </button>
+        <p class="number"> 0 </p>
+        <p class="chart"> chart</p>
+        <button class="buy">Buy Now</button>
+    
+        </div>
+        <div class="information">
+            <div class="title">
+                <h1>Bomb Capshu Jacket</h1>
+                <hr>
+                <div class="price">price</div>
+                <p>890&#163</p>
+            </div>
+            <div class="size">
+                <p class="size">Size</p>
+                <select name="size" id="size">
+                    <optgroup for="size">
+                        <option value="1">2XLarge</option>
+                        <option value="1.5">XLarge</option>
+                        <option value="2">Medium</option>
+                        <option value="2.5">small</option>
+                        
+                    </label>
+                </select>
+            </div>
+        </div>
+    <div class="details">
+        <h1 style="font-size: 45px;">Product</h1>
+        <ul class="detail">
+            <li>The jacket is warm and cold weather with a stylish design for the leisure</li>
+            <li>Provides unique design in color and pattern</li>
+            <li>Soft and smooth texture</li>
+            <li>Colour will not fade</li>
+        </ul>
+    </div>
+    <div class="login">
+        <input type="button" class="one" value="login">
+        <input type="button" class="two" value="SignIn">
+        <input type="search" name="" id="search" class="search">
+    </div>
+    
+</div>
+
+
+
+
+
+
+    <script>
+
+        let btnAdd= document.querySelector(".add") ;
+        let btnRemove =document.querySelector(".remove")
+        let number = document.querySelector(".number")
+        let  counter = 0 ;
+        btnAdd.addEventListener('click' ,function () {
+            counter++
+            number.textContent = counter
+        })
+        btnRemove.addEventListener('click' ,function () {
+            counter--
+            number.textContent = counter
+        })
+    </script>
+</body>
+</html>
