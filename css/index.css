@@ -83,7 +83,7 @@ body{
 }
 .buy{
     position: absolute;
-    left: 11%;
+    left: 6.5%;
     padding: 10px;
     width: 525px;
     font-size: 35px;
@@ -95,7 +95,6 @@ body{
     cursor: pointer;
     height: 100px;
     
-
 }
 .title{
     position: absolute;
